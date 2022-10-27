@@ -62,6 +62,8 @@ void mergeSort(int arr[], int l, int r)
 }
 int main()
 {
+
+    // inputs
     int arr[] = {5, 2, 3, 4, 1};
     mergeSort(arr, 0, 4);
     for (int i = 0; i < 5; i++)
